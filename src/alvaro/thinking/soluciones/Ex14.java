@@ -1,4 +1,4 @@
-// concurrency/Ex14.java
+// concurrency/InterfaceBasico_Polimorfismo2.java
 // TIJ4 Chapter Concurrency, Exercise 14, page 1169
 /** Demonstrate that java.util.Timer scales to large numbers by 
 * creating a program that generates many Timer objects that perform

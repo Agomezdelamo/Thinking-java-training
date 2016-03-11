@@ -1,4 +1,4 @@
-// holding/NonCollectionSequence32.java
+// ColeccionesArrayList/NonCollectionSequence32.java
 // TIJ4 Chapter Holding, Exercise 32, page 437
 /* Following the example of MultiIterableClass, add reversed() and randomized() 
 * methods to NonCollectionSequence.java, as well as making  NonCollectionSequence.java

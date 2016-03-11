@@ -1,4 +1,4 @@
-// holding/Vowels16.java
+// ColeccionesArrayList/Vowels16.java
 // TIJ4 Chapter Holding, Exercise 16, page 419
 /* Create a Set of the vowels. Working from UniqueWords.java, count and
 * display the number of vowels in each input word, and also display the total

@@ -1,7 +1,7 @@
 // interfaces/AdaptedRandomChars16.java
 // TIJ4 Chapter Interfaces, Exercise 16, page 334
 /* Create a class that produces a sequence of chars. Adapt this class so
-* that it can be an input to a Scanner object.
+* that it can be an input to a AdaptedRandomChars object.
 */
 /* Solution includes, in same package:
 * import java.util.*;

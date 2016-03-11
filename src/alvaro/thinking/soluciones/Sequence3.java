@@ -1,4 +1,4 @@
-// holding/Sequence3.java
+// ColeccionesArrayList/Sequence3.java
 // TIJ4 Chapter Holding, Exercise 3, page 396
 /* Modify innerclasses/Sequence.java so that you can add any number
 * of elements to it.

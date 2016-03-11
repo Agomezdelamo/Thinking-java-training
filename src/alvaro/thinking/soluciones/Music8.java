@@ -1,6 +1,6 @@
 // polymorphism/music8/Music8.java
 // TIJ4 Chapter Polymorphism, Exercise 8, page 289
-/* Modify Music3.java so that it randomly creates Instrument objects the way
+/* Modify InterfacesVariosHerencia.java so that it randomly creates Instrument objects the way
 * Shapes.java does.
 */
 /* Solution includes, in same package:

@@ -1,4 +1,4 @@
-// holding/CollectionSequence30.java
+// ColeccionesArrayList/CollectionSequence30.java
 import typeinfo.pets.*;
 import java.util.*;
 

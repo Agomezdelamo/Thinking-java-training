@@ -1,4 +1,4 @@
-// holding/Sequence9.java
+// ColeccionesArrayList/Sequence9.java
 // TIJ4 Chapter Holding, Exercise 9, page 409
 // Modify innerclasses/Sequence.java so that Sequence works with an Iterator
 // instead of a Selector.

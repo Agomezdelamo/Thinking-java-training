@@ -17,7 +17,12 @@ abstract class Dad {
 
 class Son extends Dad {
 	private int i = 1;
-	@Override protected void print() { System.out.println("Son.i = " + i); }
+	@Override protected void print() { 
+		if(i == 0)
+			System.out.println("Son.i = " + i + " la primera vez es 0 porque no se a inicializado los campos de Son");
+		else
+			System.out.println("Son.i = " + i);
+	}
 	Son() {System.out.println("constructor Son()");}
 }
 

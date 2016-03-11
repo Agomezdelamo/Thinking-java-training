@@ -1,4 +1,4 @@
-// holding/Controller13.java
+// ColeccionesArrayList/Controller13.java
 // TIJ4 Chapter Holding, Exercise 13, page 412
 /* In the innerclasses/GreenhouseController.java example, the class
 * Controller uses an ArrayList. Change the code to use a LinkedList

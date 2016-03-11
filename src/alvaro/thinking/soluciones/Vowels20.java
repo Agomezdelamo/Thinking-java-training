@@ -1,4 +1,4 @@
-// holding/Vowels20.java
+// ColeccionesArrayList/Vowels20.java
 // TIJ4 Chapter Holding, Exercise 20, page 422
 // Modify Exercise 16 so that you keep a count of the occurence of each vowel. 
 import java.util.*;

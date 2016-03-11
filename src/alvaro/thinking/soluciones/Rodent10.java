@@ -1,4 +1,4 @@
-// holding/Rodent10.java
+// ColeccionesArrayList/Rodent10.java
 // TIJ4 Chapter Holding, Exercise 10, page 409
 /* Change Exercise 9 in the Polymorphism chapter to use an ArrayList to
 * hold the Rodents and an Iterator to move through the sequence of 

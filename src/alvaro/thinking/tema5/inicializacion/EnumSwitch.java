@@ -1,4 +1,4 @@
-package alvaro.thinking.inicializacion.tema5;
+package alvaro.thinking.tema5.inicializacion;
 
 /**
  * uso tipico de un enum en un switch

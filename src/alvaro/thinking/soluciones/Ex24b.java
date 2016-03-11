@@ -1,10 +1,10 @@
-// holding/Ex24b.java
+// ColeccionesArrayList/Ex24b.java
 // TIJ4 Chapter Holding, Exercise 24, page 423
 /* Fill a LinkedHashMap with String keys and objects of your choice.
 * Now extract the pairs, sort them based on the keys, and reinsert
 * them into the Map.
 */
-// (see also solution - holding/Ex24.java)
+// (see also solution - ColeccionesArrayList/Ex24.java)
 import java.util.*;
 import static org.greggordon.tools.Print.*;
 

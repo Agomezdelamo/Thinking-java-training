@@ -169,7 +169,7 @@ public class Ex29 {
 		for(int i = 0; i < ha.length; i++)
 			print(ha[i] + " ");
 		println();
-		println("Holder[4] Holders are holding: ");
+		println("Holder[4] Holders are ColeccionesArrayList: ");
 		for(Holder h : ha) {
 			if(h == null) println("null");
 			else println(h.get());
@@ -185,7 +185,7 @@ public class Ex29 {
 			println(list.get(i).getClass().getSimpleName());
 		}
 		list.remove(3);
-		println("Holders are holding:");
+		println("Holders are ColeccionesArrayList:");
 		for(Holder h : list) println(h.get());
 		Holder<?> h1 = list.get(0);
 		Holder<?> h2 = list.get(1);

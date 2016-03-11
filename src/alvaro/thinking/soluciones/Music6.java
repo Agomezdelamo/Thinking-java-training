@@ -1,6 +1,6 @@
 // polymorphism/music6/Music6.java
 // TIJ4 Chapter Polymorphism, Exercise 6, page 289
-/* Change Music3.java so that what() beccomes the root Object method toString().
+/* Change InterfacesVariosHerencia.java so that what() beccomes the root Object method toString().
 * Try printing the Instrument objects using System.out.println() without any 
 * casting.
 */

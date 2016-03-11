@@ -1,7 +1,7 @@
 package alvaro.thinking.tema7.reusar;
 
 /** Demuestre que el proceso de carga de una clase se produce una sóla vez.
- * Prueba que esta carga puede ser causada por la creación de uan primera instancia 
+ * InterfaceBasico_Polimorfismo que esta carga puede ser causada por la creación de uan primera instancia 
  * de esa clase o por el acceso a un miembro estático.
  * 
  * ojo:-- La carga de propiedades se produce una vez creas un objeto con new, o cuando llamas a un campo estático que se

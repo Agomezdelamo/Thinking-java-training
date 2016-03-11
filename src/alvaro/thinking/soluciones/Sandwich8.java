@@ -1,7 +1,7 @@
 // interfaces/Sandwich8.java
 // TIJ4 Chapter Interfaces, Exercise 8, page 320
 /* In polymorphism.Sandwich.java, create an interface called FastFood (with
-* appropriate methods) and change Sandwich so that it also implements
+* appropriate methods) and change InterfaceEjemplo so that it also implements
 * FastFood.
 */
 package interfaces;

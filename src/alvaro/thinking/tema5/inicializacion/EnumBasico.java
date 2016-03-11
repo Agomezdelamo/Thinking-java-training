@@ -1,4 +1,4 @@
-package alvaro.thinking.inicializacion.tema5;
+package alvaro.thinking.tema5.inicializacion;
 
 /**
  * Cree un enum con los seis billetes mas bajos de euro. Recorralo con un loop

@@ -1,4 +1,4 @@
-// holding/UniqueWords22.java
+// ColeccionesArrayList/UniqueWords22.java
 // TIJ4 Chapter Holding, Exercise 22, page422
 /* Modify the previous exercise so that it uses a class containing a String and
 * a count field to store each different word, and a Set of these objects to 

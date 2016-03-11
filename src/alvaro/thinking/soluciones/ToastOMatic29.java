@@ -116,7 +116,7 @@ class Sandwich {
 	public Toast getTop() { return top; }
 	public Toast getBottom() { return bottom; }
 	public String toString() {
-		return "Sandwich " + id + ": top: " + top + " and bottom: " + bottom;
+		return "InterfaceEjemplo " + id + ": top: " + top + " and bottom: " + bottom;
 	}
 }
 
@@ -143,7 +143,7 @@ class SandwichMaker implements Runnable {
 		} catch(InterruptedException e) {
 			print("SandwichMaker interrupted");
 		}
-		print("Sandwich maker off");
+		print("InterfaceEjemplo maker off");
 	}
 }
 

@@ -1,6 +1,6 @@
 // polymorphism/Sandwich11.java
 // TIJ4 Chapter Polymorphism, Exercise 11, page 295
-// Add class Pickle to Sandwich.java
+// Add class Pickle to InterfaceEjemplo.java
 package polymorphism;
 import static net.mindview.util.Print.*;
 
@@ -37,7 +37,7 @@ public class Sandwich11 extends PortableLunch {
 	private Cheese c = new Cheese();
 	private Pickle p = new Pickle();
 	private Lunch l = new Lunch();
-	public Sandwich11() { print("Sandwich()"); }
+	public Sandwich11() { print("InterfaceEjemplo()"); }
 	public static void main(String[] args) {
 		new Sandwich11();
 	} 

@@ -1,4 +1,4 @@
-// holding/Queue27.java
+// ColeccionesArrayList/Queue27.java
 // TIJ4 Chapter Holding, Exercise 27, page 424
 /* Write a class called Command that contains a String and has a method operation()
 * that displays the String. Write a second class with a method that fills a Queue

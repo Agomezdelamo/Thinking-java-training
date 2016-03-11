@@ -1,4 +1,4 @@
-// holding/Ex12a.java
+// ColeccionesArrayList/Ex12a.java
 // TIJ4 Chapter Holding, Exercise 12, page 410
 /* Create and populate a List<Integer>. Create a second List<Integer> of the
 * same size as the first, and use ListIterator to read elements of the first

@@ -1,4 +1,4 @@
-// holding/Gerbils17.java
+// ColeccionesArrayList/Gerbils17.java
 // TIJ4 Chapter Holding, Exercise 17, page 422
 /* Take the Gerbil class in Exercise 1 and put it into a Map instead, 
 * associating each Gerbil's name (e.g. "Fuzzy" or "Spot") as a String (the

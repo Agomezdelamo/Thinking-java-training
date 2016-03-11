@@ -1,4 +1,4 @@
-// holding/shape/RcdandomShapeGenerator31.java
+// ColeccionesArrayList/shape/RcdandomShapeGenerator31.java
 // TIJ4 Chapter Holding, Exercise 31, page 434
 /* Modify polymorphism/shape/RandomShapeGenerator.java to make it
 * Iterable. You'll need to add a constructor that takes the number of

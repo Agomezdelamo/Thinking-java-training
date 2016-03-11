@@ -1,6 +1,6 @@
 // polymorphism/music7/Music7.java
 // TIJ4 Chapter Polymorphism, Exercise 7, page 289
-/* Add a new Instrument to Music3.java and verify that polymorphism works for
+/* Add a new Instrument to InterfacesVariosHerencia.java and verify that polymorphism works for
 * your new type.
 */
 package polymorphism.music7;

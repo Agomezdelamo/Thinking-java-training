@@ -1,4 +1,4 @@
-package alvaro.thinking.inicializacion.tema5;
+package alvaro.thinking.tema5.inicializacion;
 
 /** Crear una clase con un método llamado bark(ladrar) y crear muchos métodos sobrecargando el
  * método inicial
