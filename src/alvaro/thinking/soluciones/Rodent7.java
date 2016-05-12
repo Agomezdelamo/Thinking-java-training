@@ -17,7 +17,6 @@
 * }
 */
 
-import static org.greggordon.tools.Print.*;
 
 interface Rodent {
 	String name = "Rodent";

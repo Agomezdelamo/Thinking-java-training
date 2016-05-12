@@ -5,8 +5,14 @@
 // From 'Thinking in Java, 3rd ed.' (c) Bruce Eckel 2002
 // www.BruceEckel.com. See copyright notice in CopyRight.txt.
 package com.bruceeckel.util;
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class TextFile extends ArrayList {
   // Tools to read and write files as single strings:
@@ -33,7 +39,16 @@ public class TextFile extends ArrayList {
   public TextFile(String fileName) throws IOException {
     super(Arrays.asList(read(fileName).split("\n")));
   }
-  public void write(String fileName) throws IOException {
+
+	// Read a file, split by any regular expression:
+	public TextFile(String fileName, String splitter) throws IOException {
+  		super(Arrays.asList(read(fileName).split(splitter)));
+  		// Regular expression split() often leaves an empty
+  		// String at the first position:
+  		if(get(0).equals("")) remove(0);
+	}
+  
+public void write(String fileName) throws IOException {
     PrintWriter out = new PrintWriter(
       new BufferedWriter(new FileWriter(fileName)));
     for(int i = 0; i < size(); i++)
