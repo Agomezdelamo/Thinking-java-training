@@ -13,7 +13,7 @@
 */
 import interfaces.ex5.*;
 
-public class TestEx5 implements Ex5 {
+public class TestEx5 implements ExcepcionArray2 {
 	public void sayOne() { System.out.println("one"); }
 	public void sayTwo() { System.out.println("two"); }
 	public void sayThree() { System.out.println("three"); }
