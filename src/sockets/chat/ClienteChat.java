@@ -20,7 +20,30 @@ import sockets.basico.ConexServidor;
 /**
  * Clase principal del cliente del chat
  * 
- * @author Ivan Salas Corrales <http://programando-o-intentandolo.blogspot.com.es/>
+ * En esta ocasión vamos a ver como hacer un chat
+ * en java capaz de atender múltiples clientes.
+ * Hacer un chat para comunicarse entre 2 es sencillo siempre y cuando se entienda bien
+ * como funcionan los sockets que dicho sea de paso no tienen mucha
+ * complicación pero hacer que se pueda mantener una comunicación entre
+ * más de dos hace que sean necesarias algunas cosas más puesto que un
+ * socket se comunica con un único socket y hay esta el obstáculo
+ * ¿Como poder enviar un mensaje que se envía entre 2 sockets a un tercero?
+ * pues voy a dar un ejemplo de como solucionar esto de una forma bastante sencilla.
+ * Para hacer el chat vamos a hacer 2 aplicaciones independientes, una actuara
+ * de servidor y la otra de cliente.
+ *  
+ * La función del servidor de forma resumida se puede decir que es 
+ * mantenerse en un bucle infinito a la espera de nuevas conexiones 
+ * y cuando se produzca una nueva conexión se crea un hilo para 
+ * atenderla donde dentro de otro bucle infinito se recibirán los 
+ * mensajes enviados por los clientes y se renviarán. Y el cliente 
+ * lo que hace es crear un bucle infinito para recibir los mensajes 
+ * del servidor (previamente enviados por un cliente) y una función 
+ * para poder enviar mensajes al servidor.
+ * 
+ * Visto que es lo que tienen que hacer el servidor y el cliente “solo” 
+ * queda escribir el código java, que no será muy complicado puesto que 
+ * el problema tampoco lo es y se puede explicar en 1 minuto.
  */
 public class ClienteChat extends JFrame {
     
@@ -34,6 +57,45 @@ public class ClienteChat extends JFrame {
     ////////////////////////////////////////
     //CONFIGURACION DE LA VENTANA DEL CHAT//
     ///////////////////////////////////////
+    
+    
+    
+    /**
+     * El cliente para el chat
+     * 
+     * El servidor aunque es sencillo, puede ser más difícil 
+     * de comprender sobretodo por el uso del patrón observer 
+     * que mezclado con hilos y sockets por lo que es un buen 
+     * ejemplo del uso de ese patrón aunque no era esa la idea, 
+     * pero en el cliente no hay ninguna dificultad especial y 
+     * si se entiende el servidor el cliente es trivial.
+     * 
+     * He hecho que clienteChat herede de JFrame por lo que 
+     * será una ventana, en el constructor se crean y se 
+     * colocan los componentes necesarios (JTextArea, JTextField
+     * y JButton) y un JScrollPane para que se pueda ver toda la 
+     * conversación aunque sea muy larga y para colocar las cosas 
+     * he usado un GridBagLayout que me parece que es bastante 
+     * sencillo de usar para colocar las cosas de una forma bastante 
+     * sencilla y no tener que recurrir a meter varios JPanels 
+     * incluso para casos como este en el que solo hay 3 elementos, 
+     * si no lo has usado nunca quizás el tener que usar 
+     * GridBagConstraints puede parecer algo engorroso aunque 
+     * con un par de veces que lo usas ya te acostumbras.
+     * 
+     * Después de colocar los componentes en la línea 80 se crea 
+     * una VentanaConfiguracion que no es más que un JDialog para 
+     * pedir un nombre de usuario y el puerto y el host del servidor 
+     * por si se quieren modificar. Y finalmente se crea el socket 
+     * para conectar con el servidor del chat y en la ultima línea 
+     * se añade un actionListener al botón para que cuando se pulse 
+     * enviar se envié el mensaje al servidor.
+     * 
+     * Y en el main se instancia un ClienteChat y se llama al método 
+     * recibirMensajesServidor() que dentro de un bucle infinito 
+     * recibe los mensajes enviados por el servidor y los va 
+     * añadiendo al JTextArea para mostrarlos.
+     */
     public ClienteChat(){
         super("Cliente Chat");
         

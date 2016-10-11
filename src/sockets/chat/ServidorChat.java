@@ -7,7 +7,11 @@ import java.net.Socket;
 /**
  * Servidor para el chat.
  * 
- * @author Ivan Salas Corrales <http://programando-o-intentandolo.blogspot.com.es/>
+ * En el código de la clase principal del servidor hay poco que
+ * explicar puesto que únicamente se crea el ServerSocket y un 
+ * bucle infinito en el que se esperan conexiones y cuando se 
+ * producen se crea una ConexionCliente y se pone a correr el 
+ * hilo para que atienda la conexión con el cliente.
  */
 public class ServidorChat {
 

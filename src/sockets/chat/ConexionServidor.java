@@ -9,9 +9,8 @@ import javax.swing.JTextField;
 
 /**
  * Esta clase gestiona el envio de datos entre el cliente y el servidor.
- * 
- * @author Ivan Salas Corrales <http://programando-o-intentandolo.blogspot.com.es/>
  */
+
 public class ConexionServidor implements ActionListener {
     
     private Socket socket; 
