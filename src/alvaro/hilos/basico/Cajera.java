@@ -31,6 +31,8 @@ public class Cajera {
 				"seg");
 
 		for (int i = 0; i < cliente.getCarroCompra().length; i++) {
+			// hago un thread sleep para simular lo que tarda la cajera en pasar el producto por la caja, 
+			// el valor del array del carro de la compra del cliente es el tiempo que tarda en procesar ese producto.
 			this.esperarXsegundos(cliente.getCarroCompra()[i]);
 			System.out.println("Procesado el producto " + (i + 1) + 
 					" ->Tiempo: " + (System.currentTimeMillis() - timeStamp) / 1000 + 
